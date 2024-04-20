@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7001635204931632781}
-  - component: {fileID: 8770060504148832253}
   - component: {fileID: 724381468292225502}
   - component: {fileID: 2440023940794477482}
+  - component: {fileID: 8678061767504550245}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Player
@@ -35,27 +35,6 @@ Transform:
   - {fileID: 7749922444694459425}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &8770060504148832253
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3329138455719267442}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dcfc6ff1d939de34b8913ccc399f97f0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &724381468292225502
 Rigidbody2D:
   serializedVersion: 4
@@ -95,14 +74,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aee7992596527f049990cf30a40559d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 1.5
-  speed: 5
+  offset: 0.5
+  speed: 0.2
   totalLerpTime: 0.2
-  dashingPower: 24
+  dashingPower: 3
   dashingTime: 0.2
   dashingCooldown: 1
   jumpKey: 32
-  dashKey: 304
+  dashKey: 99
+  kaymaX: 1.6
+  kaymaY: 0.9
+--- !u!95 &8678061767504550245
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3329138455719267442}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 28d53bb2c1b5bbf4cb6b4aa71df78d64, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6238509266895779976
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,10 +175,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 841089975
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0051def0def22f5448231c4a65f153a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

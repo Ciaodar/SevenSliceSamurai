@@ -27,6 +27,8 @@ public class movementScript : MonoBehaviour
     public float dashingCooldown = 1f;
     public KeyCode jumpKey;
     public KeyCode dashKey;
+    public float kaymaX;
+    public float kaymaY;
     
     private Direction _direction;
     private Rigidbody2D rb;
@@ -66,7 +68,7 @@ public class movementScript : MonoBehaviour
         {
             if (_direction != Direction.Right && !isMoving)
             {
-                StartCoroutine(MoveSide(new Vector3(3 * offset,offset,0f)));
+                StartCoroutine(MoveSide(new Vector3(offset,offset,0f)));
                 
                 _direction = _direction == Direction.Left ? Direction.Mid : Direction.Right;
             }
@@ -86,10 +88,10 @@ public class movementScript : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
-        rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f).magnitude * new Vector2(1.6f, -0.9f).normalized;
+        rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f).magnitude * new Vector2(kaymaX, -kaymaY).normalized;
         yield return new WaitForSeconds(dashingTime);
         isDashing = false;
-        rb.velocity = new Vector2(1.6f,-.9f) * speed;
+        rb.velocity = new Vector2(kaymaX,-kaymaY) * speed;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
@@ -99,7 +101,7 @@ public class movementScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         _direction = Direction.Mid;
-        rb.velocity = new Vector2(1.6f,-.9f) * speed;
+        rb.velocity = new Vector2(kaymaX,-kaymaY) * speed;
     }
 
     void Update()
