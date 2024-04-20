@@ -1,4 +1,8 @@
-
+Library/
+Temp/
+UserSettings/
+Logs/
+.vscode/
 Library/AnnotationManager
 Library/APIUpdater/project-dependencies.graph
 Library/ArtifactDB
