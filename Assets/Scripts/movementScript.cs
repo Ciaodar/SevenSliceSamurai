@@ -43,6 +43,13 @@ public class movementScript : MonoBehaviour
     private bool canDash = true;
     private bool isDashing;
     
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        _direction = Direction.Mid;
+        rb.velocity = new Vector2(kaymaX,-kaymaY) * speed;
+    }
 
     IEnumerator MoveSide(Vector3 goal)
     {
@@ -96,13 +103,6 @@ public class movementScript : MonoBehaviour
         canDash = true;
     }
     
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
-        _direction = Direction.Mid;
-        rb.velocity = new Vector2(kaymaX,-kaymaY) * speed;
-    }
 
     void Update()
     {
@@ -111,7 +111,6 @@ public class movementScript : MonoBehaviour
         isJumping = Input.GetKeyDown(jumpKey);
         if (isJumping  && !isDashing)
         {
-
             anim.SetTrigger("Jump");
         }
 
@@ -119,6 +118,7 @@ public class movementScript : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
+        
     }
 
     private void FixedUpdate()
