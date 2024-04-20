@@ -1,0 +1,1399 @@
+fileFormatVersion: 2
+guid: b3f397246d1cf954e8d64f482aeb895c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: critter_stag_Frame_0
+    originalName: 
+    pivot: {x: 0.5769231, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 411
+      width: 26
+      height: 37
+    spriteID: 8a8006b9565486844b17d3feb588e911
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 411}
+  - name: critter_stag_Frame_1
+    originalName: 
+    pivot: {x: 0.56, y: -0.055555552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 267
+      width: 25
+      height: 36
+    spriteID: e32ed2c1ae026a04f9fb89cf0f581498
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 267}
+  - name: critter_stag_Frame_2
+    originalName: 
+    pivot: {x: 0.56, y: -0.055555552}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 311
+      width: 25
+      height: 36
+    spriteID: 36b70fcab7ea4e944bbb97e519fd15e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 311}
+  - name: critter_stag_Frame_3
+    originalName: 
+    pivot: {x: 0.56, y: -0.057142854}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 88
+      width: 25
+      height: 35
+    spriteID: bf173f6e90ab42641a1d275279f4e8fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 88}
+  - name: critter_stag_Frame_4
+    originalName: 
+    pivot: {x: 0.56, y: -0.057142854}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 131
+      width: 25
+      height: 35
+    spriteID: 5f2ad45fe95761a429371e4e40533581
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 131}
+  - name: critter_stag_Frame_5
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 96
+      width: 27
+      height: 37
+    spriteID: 3a19695c739bfbb46b575cd53d5abeba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 96}
+  - name: critter_stag_Frame_6
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 141
+      width: 27
+      height: 37
+    spriteID: 4d5bebedd1c306a4a84ef95f176a96b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 141}
+  - name: critter_stag_Frame_7
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 28
+      height: 37
+    spriteID: f3e598c8116dd7f4d93de253b475c2ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: critter_stag_Frame_8
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 90
+      width: 26
+      height: 36
+    spriteID: fe99cab3c5c738b4b967695cba112196
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 90}
+  - name: critter_stag_Frame_9
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 134
+      width: 26
+      height: 36
+    spriteID: 03b61f081f8c9124eb0b1b2650f6fdc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 134}
+  - name: critter_stag_Frame_10
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 323
+      width: 27
+      height: 36
+    spriteID: 54ee9702d803286489b35aea46b9cc51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 323}
+  - name: critter_stag_Frame_11
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.054054055}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 186
+      width: 27
+      height: 37
+    spriteID: b67a2d10751398946b2f6265b7892274
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 186}
+  - name: critter_stag_Frame_12
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.05263158}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 231
+      width: 26
+      height: 38
+    spriteID: 1e3d85ce701ea754faea92419a4253d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 231}
+  - name: critter_stag_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.025641024}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 49
+      width: 26
+      height: 39
+    spriteID: ed9c073bab320544f98307710c9c2dce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 49}
+  - name: critter_stag_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.02631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 277
+      width: 26
+      height: 38
+    spriteID: babbbb754f196d4469f2ce383ddd2799
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 277}
+  - name: critter_stag_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 456
+      width: 26
+      height: 37
+    spriteID: ba67f1e30a6ac8f42b0660b3a743522c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 456}
+  - name: critter_stag_Frame_16
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 367
+      width: 27
+      height: 36
+    spriteID: 42f10c8dd2b641a4289e6dc165648a91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 367}
+  - name: critter_stag_Frame_17
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.028571427}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 4
+      width: 27
+      height: 35
+    spriteID: 2468fa13f5d5b4648bf68f64bcdd4ff2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 4}
+  - name: critter_stag_Frame_18
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.029411763}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 4
+      width: 26
+      height: 34
+    spriteID: 9a4c7b888d2aae94294c1929e1521ebe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 4}
+  - name: critter_stag_Frame_19
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.058823526}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 46
+      width: 26
+      height: 34
+    spriteID: 4715a362d3f6ea34e9a569e7d95dc3e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 46}
+  - name: critter_stag_Frame_20
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.08571428}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 47
+      width: 27
+      height: 35
+    spriteID: 57649f06d56e5454a82a16d463cb1837
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 47}
+  - name: critter_stag_Frame_21
+    originalName: 
+    pivot: {x: 0.56, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 355
+      width: 25
+      height: 36
+    spriteID: 89d6326b2c2eb3d4ba30de6d30bf8b1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 355}
+  - name: critter_stag_Frame_22
+    originalName: 
+    pivot: {x: 0.5769231, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 178
+      width: 26
+      height: 36
+    spriteID: 0d497010b507e9b418d0c9e5178b4ea5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 178}
+  - name: critter_stag_Frame_23
+    originalName: 
+    pivot: {x: 0.56, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 399
+      width: 25
+      height: 36
+    spriteID: aa621d335fda2a042888b47bf45fb565
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 399}
+  - name: critter_stag_Frame_24
+    originalName: 
+    pivot: {x: 0.5652174, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 454
+      width: 23
+      height: 36
+    spriteID: 6fc7584e97be4d24e8142284928bb24b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 454}
+  - name: critter_stag_Frame_25
+    originalName: 
+    pivot: {x: 0.52, y: -0.028571427}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 174
+      width: 25
+      height: 35
+    spriteID: 17838481630ac954a94a199c78666bf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 174}
+  - name: critter_stag_Frame_26
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 4
+      width: 24
+      height: 37
+    spriteID: a701f03eed948c749936824109f8486e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 4}
+  - name: critter_stag_Frame_27
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 49
+      width: 24
+      height: 37
+    spriteID: f38e388bcd27d0b468dbe089c1196df1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 49}
+  - name: critter_stag_Frame_28
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 94
+      width: 24
+      height: 37
+    spriteID: 0dedb83ef44f10e409189f15e3cd4794
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 94}
+  - name: critter_stag_Frame_29
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 139
+      width: 24
+      height: 37
+    spriteID: 319972a71fc401b47bb0e06855f7095a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 139}
+  - name: critter_stag_Frame_30
+    originalName: 
+    pivot: {x: 0.52, y: -0.028571427}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 217
+      width: 25
+      height: 35
+    spriteID: 1cc1677466fadd647a9b327713092121
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 217}
+  - name: critter_stag_Frame_31
+    originalName: 
+    pivot: {x: 0.5652174, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 260
+      width: 23
+      height: 36
+    spriteID: 4152ca853c9be6c478a846c26e31130c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 260}
+  - name: critter_stag_Frame_32
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 304
+      width: 22
+      height: 37
+    spriteID: 62b4faa51112893429e71230f10d14b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 304}
+  - name: critter_stag_Frame_33
+    originalName: 
+    pivot: {x: 0.5909091, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 349
+      width: 22
+      height: 36
+    spriteID: a1470c5ef0bce1b4da66ee183bc61d38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 349}
+  - name: critter_stag_Frame_34
+    originalName: 
+    pivot: {x: 0.5652174, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 409
+      width: 23
+      height: 37
+    spriteID: ec186add6e6d2d244957272cb6bbc0d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 409}
+  - name: critter_stag_Frame_35
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 184
+      width: 24
+      height: 37
+    spriteID: 1fdf2198d0abece4399ecf6f408e03cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 184}
+  - name: critter_stag_Frame_36
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 229
+      width: 24
+      height: 37
+    spriteID: 6710f3c1e7d37794e9e681de6cb47c2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 229}
+  - name: critter_stag_Frame_37
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 274
+      width: 24
+      height: 37
+    spriteID: 89d30d195f879dc4b846c7672a055957
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 274}
+  - name: critter_stag_Frame_38
+    originalName: 
+    pivot: {x: 0.59999996, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 222
+      width: 25
+      height: 37
+    spriteID: 925585d3d5504334d9e1a486f88c038e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 222}
+  - name: critter_stag_Frame_39
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 319
+      width: 24
+      height: 37
+    spriteID: b1d595ec2a0175148b2ca1e686bfa007
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 319}
+  - name: critter_stag_Frame_40
+    originalName: 
+    pivot: {x: 0.625, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 364
+      width: 24
+      height: 37
+    spriteID: 9ce00d3ac3ce83a45840bdc9c7360231
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 364}
+  - name: critter_stag_Frame_41
+    originalName: 
+    pivot: {x: 0.56, y: -0.027777776}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 443
+      width: 25
+      height: 36
+    spriteID: 6b520415d1bc13245874283a910ed77b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 443}
+  - name: critter_stag_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: -0.03333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 4
+      width: 28
+      height: 30
+    spriteID: c77980ce297b31346ad7460e8b46593b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 4}
+  - name: critter_stag_Frame_43
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.045454543}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 177
+      y: 4
+      width: 30
+      height: 22
+    spriteID: 62ae0421af5b03243bd4408b2a5a5bae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 177, y: 4}
+  - name: critter_stag_Frame_44
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.03333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 393
+      width: 26
+      height: 30
+    spriteID: 23c8fb81e7c73084abab5ad0a5ca4a87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 393}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 854578473
+    name: critter_stag
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: critter_stag_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 1
+        y: 1
+        width: 26
+        height: 37
+      spriteId: 8a8006b9565486844b17d3feb588e911
+    - name: critter_stag_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: 2
+        width: 25
+        height: 36
+      spriteId: e32ed2c1ae026a04f9fb89cf0f581498
+    - name: critter_stag_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 2
+        width: 25
+        height: 36
+      spriteId: 36b70fcab7ea4e944bbb97e519fd15e4
+    - name: critter_stag_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: 2
+        width: 25
+        height: 35
+      spriteId: bf173f6e90ab42641a1d275279f4e8fa
+    - name: critter_stag_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: 2
+        width: 25
+        height: 35
+      spriteId: 5f2ad45fe95761a429371e4e40533581
+    - name: critter_stag_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 1
+        y: 1
+        width: 27
+        height: 37
+      spriteId: 3a19695c739bfbb46b575cd53d5abeba
+    - name: critter_stag_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 1
+        y: 1
+        width: 27
+        height: 37
+      spriteId: 4d5bebedd1c306a4a84ef95f176a96b3
+    - name: critter_stag_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 1
+        width: 28
+        height: 37
+      spriteId: f3e598c8116dd7f4d93de253b475c2ed
+    - name: critter_stag_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 2
+        y: 1
+        width: 26
+        height: 36
+      spriteId: fe99cab3c5c738b4b967695cba112196
+    - name: critter_stag_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 2
+        y: 1
+        width: 26
+        height: 36
+      spriteId: 03b61f081f8c9124eb0b1b2650f6fdc5
+    - name: critter_stag_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 1
+        y: 1
+        width: 27
+        height: 36
+      spriteId: 54ee9702d803286489b35aea46b9cc51
+    - name: critter_stag_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 1
+        y: 2
+        width: 27
+        height: 37
+      spriteId: b67a2d10751398946b2f6265b7892274
+    - name: critter_stag_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 2
+        y: 2
+        width: 26
+        height: 38
+      spriteId: 1e3d85ce701ea754faea92419a4253d5
+    - name: critter_stag_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 3
+        y: 1
+        width: 26
+        height: 39
+      spriteId: ed9c073bab320544f98307710c9c2dce
+    - name: critter_stag_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 3
+        y: 1
+        width: 26
+        height: 38
+      spriteId: babbbb754f196d4469f2ce383ddd2799
+    - name: critter_stag_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 3
+        y: 1
+        width: 26
+        height: 37
+      spriteId: ba67f1e30a6ac8f42b0660b3a743522c
+    - name: critter_stag_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 2
+        y: 1
+        width: 27
+        height: 36
+      spriteId: 42f10c8dd2b641a4289e6dc165648a91
+    - name: critter_stag_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 1
+        width: 27
+        height: 35
+      spriteId: 2468fa13f5d5b4648bf68f64bcdd4ff2
+    - name: critter_stag_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 1
+        width: 26
+        height: 34
+      spriteId: 9a4c7b888d2aae94294c1929e1521ebe
+    - name: critter_stag_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 2
+        width: 26
+        height: 34
+      spriteId: 4715a362d3f6ea34e9a569e7d95dc3e4
+    - name: critter_stag_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 3
+        width: 27
+        height: 35
+      spriteId: 57649f06d56e5454a82a16d463cb1837
+    - name: critter_stag_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 1
+        width: 25
+        height: 36
+      spriteId: 89d6326b2c2eb3d4ba30de6d30bf8b1a
+    - name: critter_stag_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 1
+        y: 1
+        width: 26
+        height: 36
+      spriteId: 0d497010b507e9b418d0c9e5178b4ea5
+    - name: critter_stag_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 1
+        width: 25
+        height: 36
+      spriteId: aa621d335fda2a042888b47bf45fb565
+    - name: critter_stag_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 3
+        y: 1
+        width: 23
+        height: 36
+      spriteId: 6fc7584e97be4d24e8142284928bb24b
+    - name: critter_stag_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 3
+        y: 1
+        width: 25
+        height: 35
+      spriteId: 17838481630ac954a94a199c78666bf8
+    - name: critter_stag_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 3
+        y: 1
+        width: 24
+        height: 37
+      spriteId: a701f03eed948c749936824109f8486e
+    - name: critter_stag_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 3
+        y: 1
+        width: 24
+        height: 37
+      spriteId: f38e388bcd27d0b468dbe089c1196df1
+    - name: critter_stag_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 3
+        y: 1
+        width: 24
+        height: 37
+      spriteId: 0dedb83ef44f10e409189f15e3cd4794
+    - name: critter_stag_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 3
+        y: 1
+        width: 24
+        height: 37
+      spriteId: 319972a71fc401b47bb0e06855f7095a
+    - name: critter_stag_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 3
+        y: 1
+        width: 25
+        height: 35
+      spriteId: 1cc1677466fadd647a9b327713092121
+    - name: critter_stag_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 3
+        y: 1
+        width: 23
+        height: 36
+      spriteId: 4152ca853c9be6c478a846c26e31130c
+    - name: critter_stag_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 3
+        y: 1
+        width: 22
+        height: 37
+      spriteId: 62b4faa51112893429e71230f10d14b6
+    - name: critter_stag_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 3
+        y: 1
+        width: 22
+        height: 36
+      spriteId: a1470c5ef0bce1b4da66ee183bc61d38
+    - name: critter_stag_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 3
+        y: 1
+        width: 23
+        height: 37
+      spriteId: ec186add6e6d2d244957272cb6bbc0d7
+    - name: critter_stag_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 2
+        y: 1
+        width: 24
+        height: 37
+      spriteId: 1fdf2198d0abece4399ecf6f408e03cf
+    - name: critter_stag_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 2
+        y: 1
+        width: 24
+        height: 37
+      spriteId: 6710f3c1e7d37794e9e681de6cb47c2e
+    - name: critter_stag_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 2
+        y: 1
+        width: 24
+        height: 37
+      spriteId: 89d30d195f879dc4b846c7672a055957
+    - name: critter_stag_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 1
+        y: 1
+        width: 25
+        height: 37
+      spriteId: 925585d3d5504334d9e1a486f88c038e
+    - name: critter_stag_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 2
+        y: 1
+        width: 24
+        height: 37
+      spriteId: b1d595ec2a0175148b2ca1e686bfa007
+    - name: critter_stag_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 1
+        y: 1
+        width: 24
+        height: 37
+      spriteId: 9ce00d3ac3ce83a45840bdc9c7360231
+    - name: critter_stag_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 2
+        y: 1
+        width: 25
+        height: 36
+      spriteId: 6b520415d1bc13245874283a910ed77b
+    - name: critter_stag_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 2
+        y: 1
+        width: 28
+        height: 30
+      spriteId: c77980ce297b31346ad7460e8b46593b
+    - name: critter_stag_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 2
+        y: 1
+        width: 30
+        height: 22
+      spriteId: 62ae0421af5b03243bd4408b2a5a5bae
+    - name: critter_stag_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 2
+        y: 1
+        width: 26
+        height: 30
+      spriteId: 23c8fb81e7c73084abab5ad0a5ca4a87
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 41}

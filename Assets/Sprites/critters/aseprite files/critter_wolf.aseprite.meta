@@ -1,0 +1,1483 @@
+fileFormatVersion: 2
+guid: 0766a3ba7260b694ab895f5b671e77de
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: critter_wolf_Frame_0
+    originalName: 
+    pivot: {x: 0.5135135, y: -0.07079646}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 177
+      y: 4
+      width: 37
+      height: 226
+    spriteID: 0cfc0d716983abd4482ef73d8ca3307f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 177, y: 4}
+  - name: critter_wolf_Frame_1
+    originalName: 
+    pivot: {x: 0.5135135, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 177
+      y: 238
+      width: 37
+      height: 225
+    spriteID: 3677370c4bb42d74a98cdd2df08e68ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 177, y: 238}
+  - name: critter_wolf_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 234
+      width: 38
+      height: 225
+    spriteID: 8bb695c67acbb744faca5bfe98934183
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 234}
+  - name: critter_wolf_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.06787331}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 703
+      width: 38
+      height: 221
+    spriteID: bf808441d865bca4982ce4292bcf2c76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 703}
+  - name: critter_wolf_Frame_4
+    originalName: 
+    pivot: {x: 0.5135135, y: -0.062780276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 177
+      y: 471
+      width: 37
+      height: 223
+    spriteID: 26fc08540acf9304c819e4fed3431dca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 177, y: 471}
+  - name: critter_wolf_Frame_5
+    originalName: 
+    pivot: {x: 0.51428574, y: -0.06726458}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 462
+      width: 35
+      height: 223
+    spriteID: b30d5c35822d49446a635d09977b7d57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 462}
+  - name: critter_wolf_Frame_6
+    originalName: 
+    pivot: {x: 0.5135135, y: -0.06787331}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 4
+      width: 37
+      height: 221
+    spriteID: 8f7e706d9592b4945b38f8d66d2d340c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 4}
+  - name: critter_wolf_Frame_7
+    originalName: 
+    pivot: {x: 0.5135135, y: -0.07174888}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 177
+      y: 702
+      width: 37
+      height: 223
+    spriteID: 070870b8acc983c42a340d7051c59347
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 177, y: 702}
+  - name: critter_wolf_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.06306306}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 433
+      y: 229
+      width: 30
+      height: 222
+    spriteID: b061257d1444fd94c863777c1bc5e0cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 433, y: 229}
+  - name: critter_wolf_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.06363636}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 233
+      width: 30
+      height: 220
+    spriteID: e655a1e2be96fa745b2e2d19fcea4421
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 233}
+  - name: critter_wolf_Frame_10
+    originalName: 
+    pivot: {x: 0.51724136, y: -0.07339449}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 463
+      width: 29
+      height: 218
+    spriteID: 36dbdb4d6d382f94b925ba54443c489f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 463}
+  - name: critter_wolf_Frame_11
+    originalName: 
+    pivot: {x: 0.516129, y: -0.07305936}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 461
+      width: 31
+      height: 219
+    spriteID: 9bf4f984b88f51946be0366f21f3457a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 461}
+  - name: critter_wolf_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.07305936}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 689
+      width: 30
+      height: 219
+    spriteID: 8e358322f916408438b3574132fc4c4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 689}
+  - name: critter_wolf_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.07272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 267
+      y: 684
+      width: 34
+      height: 220
+    spriteID: 86ad6986d87285a4c8e048348b2b5c6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 267, y: 684}
+  - name: critter_wolf_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.07239819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 4
+      width: 32
+      height: 221
+    spriteID: 907b3a22be1411f469e3f79c4962b9f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 4}
+  - name: critter_wolf_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.07272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 233
+      width: 32
+      height: 220
+    spriteID: 5f50316a2472db940956a3b95c0317db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 233}
+  - name: critter_wolf_Frame_16
+    originalName: 
+    pivot: {x: 0.51724136, y: -0.06363636}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 235
+      width: 29
+      height: 220
+    spriteID: 3ae64df12c383aa44ac7244c66e2f5bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 235}
+  - name: critter_wolf_Frame_17
+    originalName: 
+    pivot: {x: 0.516129, y: -0.07798165}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 688
+      width: 31
+      height: 218
+    spriteID: 62630486c1519704ca5cbac2ea0abd20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 688}
+  - name: critter_wolf_Frame_18
+    originalName: 
+    pivot: {x: 0.516129, y: -0.08294931}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 433
+      y: 4
+      width: 31
+      height: 217
+    spriteID: 79f333e7356f98e49a43b287577d1a26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 433, y: 4}
+  - name: critter_wolf_Frame_19
+    originalName: 
+    pivot: {x: 0.5185185, y: -0.061946902}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 689
+      width: 27
+      height: 226
+    spriteID: 3bb18e5d1248438439fb295b6cffc1f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 689}
+  - name: critter_wolf_Frame_20
+    originalName: 
+    pivot: {x: 0.51724136, y: -0.07174888}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 4
+      width: 29
+      height: 223
+    spriteID: 4532eb17498f8bf4e96a80073c9b15f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 510, y: 4}
+  - name: critter_wolf_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.072072074}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 267
+      y: 231
+      width: 34
+      height: 222
+    spriteID: 38eb91d7e9bef534592496f1f92b491f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 267, y: 231}
+  - name: critter_wolf_Frame_22
+    originalName: 
+    pivot: {x: 0.51428574, y: -0.06787331}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 693
+      width: 35
+      height: 221
+    spriteID: 9eb2a22d1b6192e48bcc9566cea7ede0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 693}
+  - name: critter_wolf_Frame_23
+    originalName: 
+    pivot: {x: 0.50877196, y: -0.07239819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 465
+      width: 57
+      height: 221
+    spriteID: 7c25044f90442be41867f0729297391c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 465}
+  - name: critter_wolf_Frame_24
+    originalName: 
+    pivot: {x: 0.50877196, y: -0.076576576}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 235
+      width: 57
+      height: 222
+    spriteID: 7d03449ae15d04c49a252d9c77634814
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 235}
+  - name: critter_wolf_Frame_25
+    originalName: 
+    pivot: {x: 0.5084746, y: -0.076233186}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 59
+      height: 223
+    spriteID: be6e034bf2711444e958072d34a06bd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: critter_wolf_Frame_26
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.076233186}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 694
+      width: 51
+      height: 223
+    spriteID: 751c47ec1f4ebd54cad03d991001bb96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 694}
+  - name: critter_wolf_Frame_27
+    originalName: 
+    pivot: {x: 0.50980395, y: -0.07906976}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 4
+      width: 51
+      height: 215
+    spriteID: ceb48d7ff4259754eb0dec8bb50e4209
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 4}
+  - name: critter_wolf_Frame_28
+    originalName: 
+    pivot: {x: 0.51428574, y: -0.07906976}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 267
+      y: 461
+      width: 35
+      height: 215
+    spriteID: c6e9d04b42927254b92211f5668f6d72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 267, y: 461}
+  - name: critter_wolf_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.06306306}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 433
+      y: 459
+      width: 30
+      height: 222
+    spriteID: e6ec0ba4e7aaeec45b3758310f4b598f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 433, y: 459}
+  - name: critter_wolf_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.06334842}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 433
+      y: 689
+      width: 30
+      height: 221
+    spriteID: 149eb17ab4bf4f64c89c3336ca0166b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 433, y: 689}
+  - name: critter_wolf_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.06363636}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 461
+      width: 30
+      height: 220
+    spriteID: 52927f2f24f7a5f4786004409c65e675
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 461}
+  - name: critter_wolf_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.06334842}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 4
+      width: 30
+      height: 221
+    spriteID: 6ca168fba8ac58f4499383bcfef99ed9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 472, y: 4}
+  - name: critter_wolf_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.06787331}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 233
+      width: 36
+      height: 221
+    spriteID: 6a7a4eeb5d0ad05498669b8755e9ab4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 233}
+  - name: critter_wolf_Frame_34
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.06849315}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 676
+      width: 33
+      height: 219
+    spriteID: 4bbbcb708d5960a4d98c04170ef249f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 676}
+  - name: critter_wolf_Frame_35
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.06849315}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 4
+      width: 33
+      height: 219
+    spriteID: 13ac8eceb01f53a4c84dfe6d5cd442fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 4}
+  - name: critter_wolf_Frame_36
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.06944445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 231
+      width: 33
+      height: 216
+    spriteID: 95ece9387f9fda24ea15c8b72613fe28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 231}
+  - name: critter_wolf_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.06944445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 4
+      width: 34
+      height: 216
+    spriteID: a2ff715e2e1cba24b88256aa90f30cfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 4}
+  - name: critter_wolf_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.06944445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 228
+      width: 34
+      height: 216
+    spriteID: b23b0e0200829aa4a9300246b8b3c1de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 228}
+  - name: critter_wolf_Frame_39
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.069767445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 679
+      width: 33
+      height: 215
+    spriteID: 2b0d8350b04c02e4faac4e1640ba1bb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 679}
+  - name: critter_wolf_Frame_40
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.06944445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 455
+      width: 33
+      height: 216
+    spriteID: 4d08d3f608fe7074ab3456c622c6d778
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 455}
+  - name: critter_wolf_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.06944445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 452
+      width: 34
+      height: 216
+    spriteID: b1735bd0a98ea3741b60acd13f8d7de3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 452}
+  - name: critter_wolf_Frame_42
+    originalName: 
+    pivot: {x: 0.51428574, y: -0.07305936}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 267
+      y: 4
+      width: 35
+      height: 219
+    spriteID: 9279ac67a1a9c2d4681397818c9b83b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 267, y: 4}
+  - name: critter_wolf_Frame_43
+    originalName: 
+    pivot: {x: 0.51111114, y: -0.06607929}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 227
+      width: 45
+      height: 227
+    spriteID: 8ca9098a3ca33be48a64ae91038b2a74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 227}
+  - name: critter_wolf_Frame_44
+    originalName: 
+    pivot: {x: 0.5135135, y: -0.065789476}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 467
+      width: 37
+      height: 228
+    spriteID: eeb63964e5b533243bbc9732105ab781
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 467}
+  - name: critter_wolf_Frame_45
+    originalName: 
+    pivot: {x: 0.5116279, y: -0.072072074}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 462
+      width: 43
+      height: 222
+    spriteID: 67120dc95fb780d4aac170085a2119e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 462}
+  - name: critter_wolf_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 71
+      y: 692
+      width: 40
+      height: 220
+    spriteID: 0d9cfc774d4181448833bac6202c817d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 71, y: 692}
+  - name: critter_wolf_Frame_47
+    originalName: 
+    pivot: {x: 0.51282054, y: -0.06306306}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 4
+      width: 39
+      height: 222
+    spriteID: 8d452458a8988984598c0e1c369f2c2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -956841894
+    name: critter_wolf
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: critter_wolf_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 13
+        y: 16
+        width: 37
+        height: 226
+      spriteId: 0cfc0d716983abd4482ef73d8ca3307f
+    - name: critter_wolf_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 13
+        y: 15
+        width: 37
+        height: 225
+      spriteId: 3677370c4bb42d74a98cdd2df08e68ea
+    - name: critter_wolf_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 13
+        y: 15
+        width: 38
+        height: 225
+      spriteId: 8bb695c67acbb744faca5bfe98934183
+    - name: critter_wolf_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 13
+        y: 15
+        width: 38
+        height: 221
+      spriteId: bf808441d865bca4982ce4292bcf2c76
+    - name: critter_wolf_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 13
+        y: 14
+        width: 37
+        height: 223
+      spriteId: 26fc08540acf9304c819e4fed3431dca
+    - name: critter_wolf_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 14
+        y: 15
+        width: 35
+        height: 223
+      spriteId: b30d5c35822d49446a635d09977b7d57
+    - name: critter_wolf_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 13
+        y: 15
+        width: 37
+        height: 221
+      spriteId: 8f7e706d9592b4945b38f8d66d2d340c
+    - name: critter_wolf_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 13
+        y: 16
+        width: 37
+        height: 223
+      spriteId: 070870b8acc983c42a340d7051c59347
+    - name: critter_wolf_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 17
+        y: 14
+        width: 30
+        height: 222
+      spriteId: b061257d1444fd94c863777c1bc5e0cc
+    - name: critter_wolf_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 17
+        y: 14
+        width: 30
+        height: 220
+      spriteId: e655a1e2be96fa745b2e2d19fcea4421
+    - name: critter_wolf_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 17
+        y: 16
+        width: 29
+        height: 218
+      spriteId: 36dbdb4d6d382f94b925ba54443c489f
+    - name: critter_wolf_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 16
+        y: 16
+        width: 31
+        height: 219
+      spriteId: 9bf4f984b88f51946be0366f21f3457a
+    - name: critter_wolf_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 17
+        y: 16
+        width: 30
+        height: 219
+      spriteId: 8e358322f916408438b3574132fc4c4a
+    - name: critter_wolf_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 15
+        y: 16
+        width: 34
+        height: 220
+      spriteId: 86ad6986d87285a4c8e048348b2b5c6a
+    - name: critter_wolf_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 16
+        y: 16
+        width: 32
+        height: 221
+      spriteId: 907b3a22be1411f469e3f79c4962b9f2
+    - name: critter_wolf_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 16
+        y: 16
+        width: 32
+        height: 220
+      spriteId: 5f50316a2472db940956a3b95c0317db
+    - name: critter_wolf_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 17
+        y: 14
+        width: 29
+        height: 220
+      spriteId: 3ae64df12c383aa44ac7244c66e2f5bd
+    - name: critter_wolf_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 16
+        y: 17
+        width: 31
+        height: 218
+      spriteId: 62630486c1519704ca5cbac2ea0abd20
+    - name: critter_wolf_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 16
+        y: 18
+        width: 31
+        height: 217
+      spriteId: 79f333e7356f98e49a43b287577d1a26
+    - name: critter_wolf_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 18
+        y: 14
+        width: 27
+        height: 226
+      spriteId: 3bb18e5d1248438439fb295b6cffc1f8
+    - name: critter_wolf_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 17
+        y: 16
+        width: 29
+        height: 223
+      spriteId: 4532eb17498f8bf4e96a80073c9b15f4
+    - name: critter_wolf_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 15
+        y: 16
+        width: 34
+        height: 222
+      spriteId: 38eb91d7e9bef534592496f1f92b491f
+    - name: critter_wolf_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 14
+        y: 15
+        width: 35
+        height: 221
+      spriteId: 9eb2a22d1b6192e48bcc9566cea7ede0
+    - name: critter_wolf_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 3
+        y: 16
+        width: 57
+        height: 221
+      spriteId: 7c25044f90442be41867f0729297391c
+    - name: critter_wolf_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 3
+        y: 17
+        width: 57
+        height: 222
+      spriteId: 7d03449ae15d04c49a252d9c77634814
+    - name: critter_wolf_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 2
+        y: 17
+        width: 59
+        height: 223
+      spriteId: be6e034bf2711444e958072d34a06bd8
+    - name: critter_wolf_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 6
+        y: 17
+        width: 51
+        height: 223
+      spriteId: 751c47ec1f4ebd54cad03d991001bb96
+    - name: critter_wolf_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 6
+        y: 17
+        width: 51
+        height: 215
+      spriteId: ceb48d7ff4259754eb0dec8bb50e4209
+    - name: critter_wolf_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 14
+        y: 17
+        width: 35
+        height: 215
+      spriteId: c6e9d04b42927254b92211f5668f6d72
+    - name: critter_wolf_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 17
+        y: 14
+        width: 30
+        height: 222
+      spriteId: e6ec0ba4e7aaeec45b3758310f4b598f
+    - name: critter_wolf_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 17
+        y: 14
+        width: 30
+        height: 221
+      spriteId: 149eb17ab4bf4f64c89c3336ca0166b8
+    - name: critter_wolf_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 17
+        y: 14
+        width: 30
+        height: 220
+      spriteId: 52927f2f24f7a5f4786004409c65e675
+    - name: critter_wolf_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 17
+        y: 14
+        width: 30
+        height: 221
+      spriteId: 6ca168fba8ac58f4499383bcfef99ed9
+    - name: critter_wolf_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 14
+        y: 15
+        width: 36
+        height: 221
+      spriteId: 6a7a4eeb5d0ad05498669b8755e9ab4a
+    - name: critter_wolf_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 15
+        y: 15
+        width: 33
+        height: 219
+      spriteId: 4bbbcb708d5960a4d98c04170ef249f3
+    - name: critter_wolf_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 15
+        y: 15
+        width: 33
+        height: 219
+      spriteId: 13ac8eceb01f53a4c84dfe6d5cd442fb
+    - name: critter_wolf_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 15
+        y: 15
+        width: 33
+        height: 216
+      spriteId: 95ece9387f9fda24ea15c8b72613fe28
+    - name: critter_wolf_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 216
+      spriteId: a2ff715e2e1cba24b88256aa90f30cfc
+    - name: critter_wolf_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 216
+      spriteId: b23b0e0200829aa4a9300246b8b3c1de
+    - name: critter_wolf_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 15
+        y: 15
+        width: 33
+        height: 215
+      spriteId: 2b0d8350b04c02e4faac4e1640ba1bb3
+    - name: critter_wolf_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 15
+        y: 15
+        width: 33
+        height: 216
+      spriteId: 4d08d3f608fe7074ab3456c622c6d778
+    - name: critter_wolf_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 15
+        y: 15
+        width: 34
+        height: 216
+      spriteId: b1735bd0a98ea3741b60acd13f8d7de3
+    - name: critter_wolf_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 14
+        y: 16
+        width: 35
+        height: 219
+      spriteId: 9279ac67a1a9c2d4681397818c9b83b3
+    - name: critter_wolf_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 9
+        y: 15
+        width: 45
+        height: 227
+      spriteId: 8ca9098a3ca33be48a64ae91038b2a74
+    - name: critter_wolf_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 13
+        y: 15
+        width: 37
+        height: 228
+      spriteId: eeb63964e5b533243bbc9732105ab781
+    - name: critter_wolf_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 10
+        y: 16
+        width: 43
+        height: 222
+      spriteId: 67120dc95fb780d4aac170085a2119e0
+    - name: critter_wolf_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 12
+        y: 15
+        width: 40
+        height: 220
+      spriteId: 0d9cfc774d4181448833bac6202c817d
+    - name: critter_wolf_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 12
+        y: 14
+        width: 39
+        height: 222
+      spriteId: 8d452458a8988984598c0e1c369f2c2a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 256}
