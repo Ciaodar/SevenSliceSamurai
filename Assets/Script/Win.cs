@@ -98,6 +98,7 @@ public class Win : MonoBehaviour
             if (enemyAnimator.GetBool("isDead")==false)
             {
                 heartAnimator[start].SetTrigger("isHit");
+                heartAnimator[start].GetComponent<heartShake>().shakeDuration = 0.2f;
                 start += 1;
                 Instantiate(hitParticle, hitEnterPoint.position, transform.rotation);
                 enemyAnimator.SetBool("isDead", true);
