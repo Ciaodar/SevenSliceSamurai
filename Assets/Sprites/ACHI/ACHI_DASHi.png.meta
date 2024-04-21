@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bfe8c4a3584aa5e499284a54eb0a5b22
+guid: 34262b16ab733d246a870dd6a86a5e60
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dusman animasyon KELTOS_0
+      name: ACHI_DASHi_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 35
-        height: 42
+        width: 66
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f64f639f8202b9749a0e60d6864026c7
-      internalID: -1823249914
+      spriteID: 7dad8bc311c26b34688f41a530ada813
+      internalID: -1488074457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dusman animasyon KELTOS_1
+      name: ACHI_DASHi_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 66
         y: 0
-        width: 35
-        height: 42
+        width: 66
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c26472f0f12cd34296455e1a903b207
-      internalID: -258831251
+      spriteID: d8e6d1a45829f6b4b9825b510d503023
+      internalID: 530752811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ACHI_DASHi_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40558506e2938c24b8df6a463f5730ab
+      internalID: -595148170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ACHI_DASHi_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab847adf3ca9ded4abfc98f866973976
+      internalID: 394687229
       vertices: []
       indices: 
       edges: []
@@ -149,8 +191,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dusman animasyon KELTOS_0: -1823249914
-      dusman animasyon KELTOS_1: -258831251
+      ACHI_DASHi_0: -1488074457
+      ACHI_DASHi_1: 530752811
+      ACHI_DASHi_2: -595148170
+      ACHI_DASHi_3: 394687229
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

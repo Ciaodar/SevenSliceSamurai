@@ -8,6 +8,7 @@ using FixedUpdate = UnityEngine.PlayerLoop.FixedUpdate;
 using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
 using Vector3 = UnityEngine.Vector3;
+using UnityEngine.SceneManagement;
 
 public class movementScript : MonoBehaviour
 {
@@ -103,6 +104,7 @@ public class movementScript : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
+        anim.SetTrigger("Dash");
         rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f).magnitude * new Vector2(kaymaX, -kaymaY).normalized;
         camShake.shakeDuration = 0.4f;
         yield return new WaitForSeconds(dashingTime);
@@ -129,12 +131,33 @@ public class movementScript : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
-        
     }
 
     private void FixedUpdate()
     {
         MoveMethod();
         
+    }
+    
+    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("collider1"))
+        {
+            if (!(anim.GetCurrentAnimatorStateInfo(0).IsName("jumpAnim") || isDashing))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+        }
+
+        if (other.CompareTag("collider2"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        if (other.CompareTag("enemy"))
+        {
+            Debug.Log("aa düşman");
+        }
     }
 }
