@@ -8,6 +8,7 @@ public class Line : MonoBehaviour
     public TrailRenderer thisTrail;
     public CameraShake1 camShake;
     public ParticleSystem particleSystem;
+    public AudioSource mySource;
 
     void Update()
     {
@@ -20,6 +21,8 @@ public class Line : MonoBehaviour
             transform.position = new Vector3(mypoint.x, mypoint.y, -5f);
             thisTrail.Clear();
             camShake.shakeDuration = 0.5f;
+           
+
         }
         else if (Input.GetKey(KeyCode.Mouse0))
         {

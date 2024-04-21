@@ -21,6 +21,8 @@ public class Win : MonoBehaviour
     public GameObject heartContainer;
     public int start = 0;
     public Transform hitEnterPoint;
+    public AudioSource mySource;
+    public AudioSource deadAudioSource;
 
     void Start()
     {
@@ -89,6 +91,7 @@ public class Win : MonoBehaviour
             enemyAnimator.SetTrigger("isHit");
 
             heartAnimator[start].SetTrigger("isHit");
+            mySource.Play();
             start += 1;
             Instantiate(hitParticle, hitEnterPoint.position,transform.rotation);
         }
@@ -97,6 +100,7 @@ public class Win : MonoBehaviour
 
             if (enemyAnimator.GetBool("isDead")==false)
             {
+                deadAudioSource.Play();
                 heartAnimator[start].SetTrigger("isHit");
                 heartAnimator[start].GetComponent<heartShake>().shakeDuration = 0.2f;
                 start += 1;
