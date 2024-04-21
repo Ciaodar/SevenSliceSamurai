@@ -8,6 +8,7 @@ using FixedUpdate = UnityEngine.PlayerLoop.FixedUpdate;
 using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
 using Vector3 = UnityEngine.Vector3;
+using UnityEngine.SceneManagement;
 
 public class movementScript : MonoBehaviour
 {
@@ -127,12 +128,23 @@ public class movementScript : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
-        
     }
 
     private void FixedUpdate()
     {
         MoveMethod();
         
+    }
+    
+    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("collider1"))
+        {
+            if (!(anim.GetCurrentAnimatorStateInfo(0).IsName("jumpAnim") || isDashing))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+        }
     }
 }
