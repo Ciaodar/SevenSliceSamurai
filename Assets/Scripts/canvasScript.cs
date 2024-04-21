@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class canvasScript : MonoBehaviour
 {
+   public GameObject siyah;
+   
    public void Quit()
    { 
       Application.Quit();
@@ -13,6 +15,8 @@ public class canvasScript : MonoBehaviour
 
    public void Load()
    {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+      siyah.SetActive(true);
+      
+      //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
    }
 }
