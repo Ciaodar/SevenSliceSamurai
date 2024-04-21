@@ -15,6 +15,11 @@ public class Win : MonoBehaviour
     GameObject enemy;
     public Animator enemyAnimator;
     public float range=15;
+    public enemyscript myEnemy;
+    public GameObject hitParticle;
+    public GameObject[] heartContainer;
+    public int start = 0;
+
     void Start()
     {
         Randomcuk = Random.Range(10, 350);
@@ -70,6 +75,25 @@ public class Win : MonoBehaviour
     public void Destroyer()
     {
         Debug.Log("deneme");
-        enemyAnimator.SetBool("isDead",true);
+        if (myEnemy.health > 1)
+        {
+            myEnemy.health -= 1;
+            enemyAnimator.SetTrigger("isHit");
+            Destroy(heartContainer[start]);
+            start += 1;
+            Instantiate(hitParticle, Vector3.zero,transform.rotation);
+        }
+        else
+        {
+
+            if (enemyAnimator.GetBool("isDead")==false)
+            {
+                Destroy(heartContainer[start]);
+                start += 1;
+                Instantiate(hitParticle, Vector3.zero, transform.rotation);
+                enemyAnimator.SetBool("isDead", true);
+            }
+            
+        }
     }
 }

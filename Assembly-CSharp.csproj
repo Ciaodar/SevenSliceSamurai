@@ -66,6 +66,7 @@
     <Compile Include="Assets\Script\Atack.cs" />
     <Compile Include="Assets\Script\Win.cs" />
     <Compile Include="Assets\Scripts\canvasScript.cs" />
+    <Compile Include="Assets\enemyscript.cs" />
     <Compile Include="Assets\Script\CameraShake.cs" />
     <Compile Include="Assets\Script\CompasSpin.cs" />
     <Compile Include="Assets\Scripts\movementScript.cs" />
