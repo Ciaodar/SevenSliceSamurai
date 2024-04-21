@@ -16,7 +16,7 @@ public class movementScript : MonoBehaviour
     public enum Direction
     {
         Left,
-        Mid
+        Right
     }
 
 
@@ -32,6 +32,7 @@ public class movementScript : MonoBehaviour
     public float kaymaY;
     public GameObject colA;
     public GameObject colB;
+    
 
     public CameraShake camShake;
     private Direction _direction;
@@ -51,7 +52,7 @@ public class movementScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        _direction = Direction.Mid;
+        _direction = Direction.Right;
         rb.velocity = new Vector2(kaymaX, -kaymaY) * speed;
     }
 
@@ -77,13 +78,13 @@ public class movementScript : MonoBehaviour
     {
         if (inputX >= 0.95f)
         {
-            if (_direction != Direction.Mid && !isMoving)
+            if (_direction != Direction.Right && !isMoving)
             {
                 StartCoroutine(MoveSide(new Vector3(offset,offset,0f)));
 
                 if (_direction == Direction.Left)
                 {
-                    _direction = Direction.Mid;
+                    _direction = Direction.Right;
                 }
 
                 ;
@@ -95,7 +96,7 @@ public class movementScript : MonoBehaviour
             {
                 StartCoroutine(MoveSide(new Vector3(-offset,-offset,0f)));
 
-                if (_direction == Direction.Mid)
+                if (_direction == Direction.Right)
                 {
                     _direction = Direction.Left;
                 }
@@ -123,6 +124,12 @@ public class movementScript : MonoBehaviour
         inputX = Input.GetAxisRaw("Horizontal");
 
         isJumping = Input.GetKeyDown(jumpKey);
+
+        PlayerPrefs.SetFloat("x",transform.position.x);
+        PlayerPrefs.SetFloat("y",transform.position.x);
+        PlayerPrefs.SetFloat("z",transform.position.x);
+        
+        //Debug.Log(guncelPos);
 
         //isJumping = anim.GetCurrentAnimatorStateInfo(0).IsName("jumpAnim");
         if (isJumping  && !isDashing )
