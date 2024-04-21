@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\heartShake.cs" />
+    <Compile Include="Assets\sceneManager.cs" />
     <Compile Include="Assets\triggerScript.cs" />
     <Compile Include="Assets\Script\Line.cs" />
     <Compile Include="Assets\Scripts\cameraFollow.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\enemyscript.cs" />
     <Compile Include="Assets\Script\CameraShake.cs" />
     <Compile Include="Assets\Script\CompasSpin.cs" />
+    <Compile Include="Assets\twodeeenemy.cs" />
     <Compile Include="Assets\Scripts\movementScript.cs" />
     <Compile Include="Assets\Scripts\girisekranScript.cs" />
   </ItemGroup>
