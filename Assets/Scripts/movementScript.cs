@@ -13,7 +13,6 @@ public class movementScript : MonoBehaviour
 {
     public enum Direction
     {
-        Right,
         Left,
         Mid
     }
@@ -49,7 +48,7 @@ public class movementScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         _direction = Direction.Mid;
-        rb.velocity = new Vector2(kaymaX,-kaymaY) * speed;
+        rb.velocity = new Vector2(kaymaX, -kaymaY) * speed;
     }
 
     IEnumerator MoveSide(Vector3 goal)
@@ -74,11 +73,16 @@ public class movementScript : MonoBehaviour
     {
         if (inputX >= 0.95f)
         {
-            if (_direction != Direction.Right && !isMoving)
+            if (_direction != Direction.Mid && !isMoving)
             {
                 StartCoroutine(MoveSide(new Vector3(offset,offset,0f)));
-                
-                _direction = _direction == Direction.Left ? Direction.Mid : Direction.Right;
+
+                if (_direction == Direction.Left)
+                {
+                    _direction = Direction.Mid;
+                }
+
+                ;
             }
         }
         if (inputX <= -0.95f)
@@ -86,8 +90,11 @@ public class movementScript : MonoBehaviour
             if (_direction != Direction.Left && !isMoving)
             {
                 StartCoroutine(MoveSide(new Vector3(-offset,-offset,0f)));
-                
-                _direction = _direction == Direction.Right ? Direction.Mid : Direction.Left;
+
+                if (_direction == Direction.Mid)
+                {
+                    _direction = Direction.Left;
+                }
             }
         }
     }
@@ -111,7 +118,9 @@ public class movementScript : MonoBehaviour
         inputX = Input.GetAxisRaw("Horizontal");
 
         isJumping = Input.GetKeyDown(jumpKey);
-        if (isJumping  && !isDashing)
+
+        //isJumping = anim.GetCurrentAnimatorStateInfo(0).IsName("jumpAnim");
+        if (isJumping  && !isDashing )
         {
             anim.SetTrigger("Jump");
         }
