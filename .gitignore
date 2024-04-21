@@ -16762,3 +16762,5 @@ UserSettings/Search.settings
 *.csproj
 *.csproj
 Assembly-CSharp.csproj
+Assembly-CSharp.csproj
+obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache

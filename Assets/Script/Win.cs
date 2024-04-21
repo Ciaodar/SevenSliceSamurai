@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Win : MonoBehaviour
@@ -106,6 +107,7 @@ public class Win : MonoBehaviour
                 start += 1;
                 Instantiate(hitParticle, hitEnterPoint.position, transform.rotation);
                 enemyAnimator.SetBool("isDead", true);
+                SceneManager.LoadScene("1-2");
             }
             
         }
