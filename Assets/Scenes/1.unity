@@ -14321,6 +14321,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 519420034}
     - target: {fileID: 2440023940794477482, guid: 481540d139f33e64fb37ccae69bb4594, type: 3}
+      propertyPath: winEkran
+      value: 
+      objectReference: {fileID: 761567370}
+    - target: {fileID: 2440023940794477482, guid: 481540d139f33e64fb37ccae69bb4594, type: 3}
       propertyPath: dashingCooldown
       value: 0.5
       objectReference: {fileID: 0}
