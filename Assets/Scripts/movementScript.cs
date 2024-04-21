@@ -9,6 +9,7 @@ using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
 using Vector3 = UnityEngine.Vector3;
 using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
 
 public class movementScript : MonoBehaviour
 {
@@ -29,6 +30,8 @@ public class movementScript : MonoBehaviour
     public KeyCode dashKey;
     public float kaymaX;
     public float kaymaY;
+    public GameObject colA;
+    public GameObject colB;
 
     public CameraShake camShake;
     private Direction _direction;
@@ -131,12 +134,23 @@ public class movementScript : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
+        
+        
+        if (_direction == Direction.Left)
+        {
+            colB.GetComponent<TilemapCollider2D>().enabled = false;
+            colA.GetComponent<TilemapCollider2D>().enabled = true;
+        }
+        else
+        {
+            colB.GetComponent<TilemapCollider2D>().enabled = true;
+            colA.GetComponent<TilemapCollider2D>().enabled = false;
+        }
     }
 
     private void FixedUpdate()
     {
         MoveMethod();
-        
     }
     
     
