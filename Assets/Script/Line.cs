@@ -5,7 +5,7 @@ using UnityEngine;
 public class Line : MonoBehaviour
 {
     public TrailRenderer thisTrail;
-    public CameraShake camShake;
+    public CameraShake1 camShake;
 
     void Update()
     {

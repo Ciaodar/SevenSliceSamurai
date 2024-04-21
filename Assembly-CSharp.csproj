@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Line.cs" />
     <Compile Include="Assets\Scripts\cameraFollow.cs" />
+    <Compile Include="Assets\Script\CameraShake1.cs" />
     <Compile Include="Assets\Script\Atack.cs" />
     <Compile Include="Assets\Script\Win.cs" />
     <Compile Include="Assets\Scripts\canvasScript.cs" />

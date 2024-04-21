@@ -311,6 +311,37 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &452120105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452120106}
+  m_Layer: 0
+  m_Name: DONT DELETE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &452120106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452120105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 519420032}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,6 +354,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -401,7 +433,8 @@ Transform:
   m_LocalPosition: {x: -2.24, y: -0.82, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 452120106}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &519420033
@@ -418,6 +451,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1311141206}
   offset: {x: 2.6, y: -0.7, z: -10}
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89dbf309b6a91f145880782ea37f603a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakerpoint: {fileID: 452120106}
+  camTransform: {fileID: 0}
+  shakeDuration: 0
+  shakeAmount: 0.008
+  decreaseFactor: 1
 --- !u!1 &780135124
 GameObject:
   m_ObjectHideFlags: 0
@@ -6553,6 +6603,10 @@ PrefabInstance:
       propertyPath: offset
       value: 0.48
       objectReference: {fileID: 0}
+    - target: {fileID: 2440023940794477482, guid: 481540d139f33e64fb37ccae69bb4594, type: 3}
+      propertyPath: camShake
+      value: 
+      objectReference: {fileID: 519420034}
     - target: {fileID: 3329138455719267442, guid: 481540d139f33e64fb37ccae69bb4594, type: 3}
       propertyPath: m_Name
       value: GameObject
