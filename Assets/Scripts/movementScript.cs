@@ -103,6 +103,7 @@ public class movementScript : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
+        anim.SetTrigger("Dash");
         rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f).magnitude * new Vector2(kaymaX, -kaymaY).normalized;
         yield return new WaitForSeconds(dashingTime);
         isDashing = false;
@@ -150,6 +151,11 @@ public class movementScript : MonoBehaviour
         if (other.CompareTag("collider2"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        if (other.CompareTag("enemy"))
+        {
+            Debug.Log("aa düşman");
         }
     }
 }
