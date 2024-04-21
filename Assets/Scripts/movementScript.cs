@@ -32,6 +32,7 @@ public class movementScript : MonoBehaviour
     public float kaymaY;
     public GameObject colA;
     public GameObject colB;
+    public GameObject winEkran;
     
 
     public CameraShake camShake;
@@ -119,8 +120,12 @@ public class movementScript : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
-    
 
+    void sahneload()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    
     void Update()
     {
         inputX = Input.GetAxisRaw("Horizontal");
@@ -181,6 +186,12 @@ public class movementScript : MonoBehaviour
         if (other.CompareTag("enemy"))
         {
             SceneManager.LoadScene("AttackScene");
+        }
+
+        if (other.CompareTag("win"))
+        {
+            winEkran.SetActive(true);
+            Invoke("sahneload",5);
         }
     }
 }
