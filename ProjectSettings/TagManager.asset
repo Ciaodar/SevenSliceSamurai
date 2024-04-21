@@ -56,3 +56,9 @@ TagManager:
   - name: High
     uniqueID: 1124816197
     locked: 0
+  - name: FrontWall
+    uniqueID: 3642340361
+    locked: 0
+  - name: FrontHigh
+    uniqueID: 1720647477
+    locked: 0
