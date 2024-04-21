@@ -123,7 +123,7 @@ public class movementScript : MonoBehaviour
 
     void sahneload()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("2");
     }
     
     void Update()
