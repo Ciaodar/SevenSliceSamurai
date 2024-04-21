@@ -47,7 +47,7 @@ public class movementScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         _direction = Direction.Mid;
-        rb.velocity = new Vector2(kaymaX,-kaymaY) * speed;
+        rb.velocity = new Vector2(kaymaX, -kaymaY) * speed;
     }
 
     IEnumerator MoveSide(Vector3 goal)
