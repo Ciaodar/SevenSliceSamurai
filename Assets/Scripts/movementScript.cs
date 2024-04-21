@@ -171,7 +171,7 @@ public class movementScript : MonoBehaviour
 
         if (other.CompareTag("enemy"))
         {
-            Debug.Log("aa düşman");
+            SceneManager.LoadScene("AttackScene");
         }
     }
 }
