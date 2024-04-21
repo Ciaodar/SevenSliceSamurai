@@ -14,10 +14,11 @@ public class Win : MonoBehaviour
     public float degri;
     GameObject enemy;
     public Animator enemyAnimator;
+    public Animator[] heartAnimator;
     public float range=15;
     public enemyscript myEnemy;
     public GameObject hitParticle;
-    public GameObject[] heartContainer;
+    public GameObject heartContainer;
     public int start = 0;
     public Transform hitEnterPoint;
 
@@ -86,7 +87,8 @@ public class Win : MonoBehaviour
         {
             myEnemy.health -= 1;
             enemyAnimator.SetTrigger("isHit");
-            Destroy(heartContainer[start]);
+
+            heartAnimator[start].SetTrigger("isHit");
             start += 1;
             Instantiate(hitParticle, hitEnterPoint.position,transform.rotation);
         }
@@ -95,7 +97,7 @@ public class Win : MonoBehaviour
 
             if (enemyAnimator.GetBool("isDead")==false)
             {
-                Destroy(heartContainer[start]);
+                heartAnimator[start].SetTrigger("isHit");
                 start += 1;
                 Instantiate(hitParticle, hitEnterPoint.position, transform.rotation);
                 enemyAnimator.SetBool("isDead", true);
