@@ -8,8 +8,8 @@ public class Atack : MonoBehaviour
 {
     public CompasSpin compasSpin;
     public Vector2 mousePos;
-    public static Vector2 StartPos;
-    public static Vector2 StopPos;
+    public  Vector2 StartPos;
+    public  Vector2 StopPos;
     public Vector2 myDir;
     public float myAngle;
     public Sprite Hit;

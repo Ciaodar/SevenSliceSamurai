@@ -19,6 +19,7 @@ public class Win : MonoBehaviour
     public GameObject hitParticle;
     public GameObject[] heartContainer;
     public int start = 0;
+    public Transform hitEnterPoint;
 
     void Start()
     {
@@ -38,7 +39,13 @@ public class Win : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            if (IsBetween(myAngle, degri-range, degri+range)) { Destroyer();}
+            if (IsBetween(myAngle, degri-range, degri+range)) 
+            {
+                if (CheckIfItIntersects())
+                {
+                    Destroyer();
+                }            
+            }
             else
             {
                 compasspin.getRandomRotation();
@@ -81,7 +88,7 @@ public class Win : MonoBehaviour
             enemyAnimator.SetTrigger("isHit");
             Destroy(heartContainer[start]);
             start += 1;
-            Instantiate(hitParticle, Vector3.zero,transform.rotation);
+            Instantiate(hitParticle, hitEnterPoint.position,transform.rotation);
         }
         else
         {
@@ -90,10 +97,32 @@ public class Win : MonoBehaviour
             {
                 Destroy(heartContainer[start]);
                 start += 1;
-                Instantiate(hitParticle, Vector3.zero, transform.rotation);
+                Instantiate(hitParticle, hitEnterPoint.position, transform.rotation);
                 enemyAnimator.SetBool("isDead", true);
             }
             
+        }
+    }
+
+
+    public bool CheckIfItIntersects()
+    {
+
+        Vector3 startVector = new Vector3(atack.StartPos.x, atack.StartPos.y, -5f);
+
+        Vector3 stopVector = new Vector3(atack.StopPos.x, atack.StopPos.y, -5f);
+
+        RaycastHit2D hit = Physics2D.Raycast(startVector,(stopVector-startVector).normalized*Vector3.Distance(stopVector,startVector));
+        Debug.DrawRay(startVector, (stopVector - startVector).normalized * 5f, Color.green);
+
+        // If it hits something...
+        if (hit.collider != null)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 }
