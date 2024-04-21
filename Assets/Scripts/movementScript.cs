@@ -29,7 +29,8 @@ public class movementScript : MonoBehaviour
     public KeyCode dashKey;
     public float kaymaX;
     public float kaymaY;
-    
+
+    public CameraShake camShake;
     private Direction _direction;
     private Rigidbody2D rb;
     private Animator anim;
@@ -96,6 +97,7 @@ public class movementScript : MonoBehaviour
         canDash = false;
         isDashing = true;
         rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f).magnitude * new Vector2(kaymaX, -kaymaY).normalized;
+        camShake.shakeDuration = 0.4f;
         yield return new WaitForSeconds(dashingTime);
         isDashing = false;
         rb.velocity = new Vector2(kaymaX,-kaymaY) * speed;

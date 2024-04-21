@@ -3,6 +3,7 @@ using System.Collections;
 
 public class CameraShake : MonoBehaviour
 {
+	public Transform shakerpoint;
 	// Transform of the camera to shake. Grabs the gameObject's transform
 	// if null.
 	public Transform camTransform;
@@ -33,14 +34,14 @@ public class CameraShake : MonoBehaviour
 	{
 		if (shakeDuration > 0)
 		{
-			camTransform.localPosition = originalPos + Random.insideUnitSphere * shakeAmount;
+			camTransform.localPosition = shakerpoint.position + Random.insideUnitSphere * shakeAmount;
 
 			shakeDuration -= Time.deltaTime * decreaseFactor;
 		}
 		else
 		{
 			shakeDuration = 0f;
-			camTransform.localPosition = originalPos;
+			camTransform.localPosition = shakerpoint.position;
 		}
 	}
 }
