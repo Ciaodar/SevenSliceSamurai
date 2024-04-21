@@ -56,3 +56,12 @@ TagManager:
   - name: High
     uniqueID: 1124816197
     locked: 0
+  - name: Char
+    uniqueID: 1237412369
+    locked: 0
+  - name: FWall
+    uniqueID: 1833204225
+    locked: 0
+  - name: FHigh
+    uniqueID: 992012171
+    locked: 0
