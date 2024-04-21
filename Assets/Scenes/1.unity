@@ -10837,6 +10837,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd236ff20c78afe42af130aa25bf6c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemybir: {fileID: 0}
+  enemyiki: {fileID: 0}
+  enemyuc: {fileID: 0}
 --- !u!4 &1298942489
 Transform:
   m_ObjectHideFlags: 0
@@ -15838,6 +15841,7 @@ GameObject:
   - component: {fileID: 1592151424}
   - component: {fileID: 1592151423}
   - component: {fileID: 1592151422}
+  - component: {fileID: 1592151425}
   m_Layer: 0
   m_Name: dusman_animasyon_0
   m_TagString: enemy
@@ -15957,6 +15961,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1592151425
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592151421}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b5420f53cccc2f478ae4bf2d8d5c04f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1596598993
 GameObject:
   m_ObjectHideFlags: 0

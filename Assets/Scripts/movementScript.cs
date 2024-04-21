@@ -50,6 +50,8 @@ public class movementScript : MonoBehaviour
     
     private void Start()
     {
+        transform.position = new Vector3(PlayerPrefs.GetInt("x"), PlayerPrefs.GetInt("y"), PlayerPrefs.GetInt("z"));  
+        
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         _direction = Direction.Right;
