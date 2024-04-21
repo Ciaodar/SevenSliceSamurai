@@ -75,6 +75,10 @@ public class Win : MonoBehaviour
         }*/
     }
 
+    void load()
+    {
+        SceneManager.LoadScene("1-2");
+    }
 
 
 
@@ -107,7 +111,8 @@ public class Win : MonoBehaviour
                 start += 1;
                 Instantiate(hitParticle, hitEnterPoint.position, transform.rotation);
                 enemyAnimator.SetBool("isDead", true);
-                SceneManager.LoadScene("1-2");
+                Invoke("load",5);
+                //PlayerPrefs.SetInt("ilk",1);
             }
             
         }
